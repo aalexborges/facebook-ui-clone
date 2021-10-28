@@ -1,0 +1,25 @@
+{
+  "short_name": "Facebook",
+  "name": "Um clone da interface do Facebook",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "80x80 192x192 512x512 64x64 40x40 32x32 24x24 16x16 ",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1877F2",
+  "background_color": "#F0F2F5"
+}

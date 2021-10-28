@@ -1,0 +1,3 @@
+{
+  "src/**/*.{js,ts,tsx}": "react-scripts test --watchAll=false --passWithNoTests"
+}
