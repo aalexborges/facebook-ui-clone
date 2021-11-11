@@ -9,7 +9,7 @@
 
 <img alt="Screencapture" src=".github/screencapture.png" />
 
-> Access the project through this link: [https://facebook-ui-clone-kohl.vercel.app](https://facebook-ui-clone-kohl.vercel.app)
+> Access the project [here](https://facebook-clone.alexborgesdev.vercel.app).
 
 This project is a copy of the facebook Home page interface. Built with React and Typescript, using styled-components lib to generate style sheets.
 
