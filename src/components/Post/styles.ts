@@ -38,6 +38,9 @@ export const ImageContainer = styled.div<{ backgroundColor?: string }>`
   min-height: 0;
   max-height: 750px;
 
+  position: relative;
+  user-select: none;
+
   display: flex;
   flex-direction: row;
 
@@ -45,7 +48,6 @@ export const ImageContainer = styled.div<{ backgroundColor?: string }>`
   justify-content: center;
 
   cursor: pointer;
-  position: relative;
   overflow: hidden;
   background-color: ${({ backgroundColor }) =>
     backgroundColor || 'transparent'};
@@ -54,5 +56,6 @@ export const ImageContainer = styled.div<{ backgroundColor?: string }>`
     ${({ backgroundColor }) => (!backgroundColor ? 'width: 100%' : '')};
     max-width: 100%;
     object-fit: cover;
+    user-select: none;
   }
 `
