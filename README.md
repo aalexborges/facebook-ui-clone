@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AlexBorgesDev/facebook-ui-clone.svg" />
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/AlexBorgesDev/facebook-ui-clone.svg" />
-  <img alt="Package License" src="https://img.shields.io/github/license/alexborgesdev/facebook-ui-clone.svg" />
+  <img alt="Package License" src="https://img.shields.io/github/license/AlexBorgesDev/facebook-ui-clone.svg" />
   <a href='https://coveralls.io/github/AlexBorgesDev/facebook-ui-clone?branch=main'><img src='https://coveralls.io/repos/github/AlexBorgesDev/facebook-ui-clone/badge.svg?branch=main' alt='Coverage Status' /></a>
 </p>
 
