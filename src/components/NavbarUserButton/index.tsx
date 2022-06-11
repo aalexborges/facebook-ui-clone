@@ -11,7 +11,7 @@ type Props = Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'children'> & {
 export function NavbarUserButton({ user, ...props }: Props) {
   return (
     <Container type="button" {...props}>
-      <UserImage src={user.avatarUrl} alt={user.name} />
+      <UserImage loading="lazy" src={user.avatarUrl} alt={user.name} />
 
       <Text>{user.name.trim().split(' ')[0]}</Text>
     </Container>

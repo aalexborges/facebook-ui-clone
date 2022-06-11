@@ -36,7 +36,13 @@ export const FeedStoryItem = memo(function FeedStoryItem({
         />
       </Content>
 
-      {!myStory && <UserImage src={data.user.avatarUrl} alt={data.user.name} />}
+      {!myStory && (
+        <UserImage
+          loading="lazy"
+          src={data.user.avatarUrl}
+          alt={data.user.name}
+        />
+      )}
 
       <TextContainer myStory={myStory}>
         {myStory && (

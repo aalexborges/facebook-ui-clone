@@ -18,7 +18,9 @@ export const AsideContactButton = memo(function AsideContactButton({
   return (
     <Container type="button" {...props}>
       <UserImageContainer isOnline={user?.isOnline}>
-        {user && !icon && <UserImage src={user.avatarUrl} alt={title} />}
+        {user && !icon && (
+          <UserImage loading="lazy" src={user.avatarUrl} alt={title} />
+        )}
 
         {icon && icon}
       </UserImageContainer>

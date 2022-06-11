@@ -22,7 +22,7 @@ export const Post = memo(function Post({ text, image, ...props }: PostType) {
 
       {image && (
         <ImageContainer backgroundColor={image.backgroundColor}>
-          <img src={image.uri} />
+          <img loading="lazy" src={image.uri} alt="" />
         </ImageContainer>
       )}
 
