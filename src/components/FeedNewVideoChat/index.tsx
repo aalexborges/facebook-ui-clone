@@ -5,7 +5,7 @@ import { ReactComponent as ChevronLeftIcon } from '../../assets/chevronLeftIcon.
 import { ReactComponent as ChevronRightIcon } from '../../assets/chevronRightIcon.svg'
 
 // Utils
-import { contacts } from '../../utils/contacts'
+import { contacts } from '../../data/contacts'
 
 import {
   Container,

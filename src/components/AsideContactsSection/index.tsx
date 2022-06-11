@@ -11,7 +11,7 @@ import {
 } from '../AsideSectionTitle'
 
 // Utils
-import { contacts } from '../../utils/contacts'
+import { contacts } from '../../data/contacts'
 
 export function AsideContactsSection() {
   return (

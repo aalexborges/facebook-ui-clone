@@ -5,8 +5,8 @@ import { ReactComponent as ArrowRightIcon } from '../../assets/storyArrowRightIc
 import { FeedStoryItem } from '../FeedStoryItem'
 
 // Utils
-import { stories } from '../../utils/stories'
-import { user } from '../../utils/user'
+import { stories } from '../../data/stories'
+import { user } from '../../data/user'
 
 import { Container, MoreButton } from './styles'
 

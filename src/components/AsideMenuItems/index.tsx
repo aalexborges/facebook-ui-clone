@@ -12,7 +12,7 @@ import MarketplaceIcon from '../../assets/asideMenu/marketplaceIcon.png'
 import WatchIcon from '../../assets/asideMenu/watchIcon.png'
 
 // Utils
-import { user } from '../../utils/user'
+import { user } from '../../data/user'
 
 import { Container } from './styles'
 

@@ -1,4 +1,4 @@
-import { user } from '../../utils/user'
+import { user } from '../../data/user'
 
 import {
   ButtonsContainer,

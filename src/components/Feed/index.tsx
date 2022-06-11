@@ -5,7 +5,7 @@ import { FeedStory } from '../FeedStory'
 import { Post } from '../Post'
 
 // Utils
-import { posts } from '../../utils/posts'
+import { posts } from '../../data/posts'
 
 import { Container, Content } from './styles'
 

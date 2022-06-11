@@ -2,7 +2,7 @@ import { memo } from 'react'
 
 import { ReactComponent as PlusIcon } from '../../assets/storyPlusIcon.svg'
 
-import type { User } from '../../utils/user'
+import type { User } from '../../data/user'
 
 import {
   Container,

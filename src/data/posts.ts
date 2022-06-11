@@ -1,4 +1,5 @@
 import pageScreenImg from '../assets/pageScreenCapture.png'
+import personInNature from '../assets/person-in-nature.jpg'
 
 import type { PostAuthorProps } from '../components/PostAuthor'
 import type { PostBottomProps } from '../components/PostBottom'
@@ -61,8 +62,8 @@ export const posts: PostType[] = [
     user: <Contact>contacts.find(({ name }) => name === 'Estevan Melo'),
     text: 'Viva a natureza! 😊🌲🍃🦊',
     image: {
-      uri: 'https://unsplash.com/photos/Yui5vfKHuzs/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8dHJhdmVsfHwwfHx8fDE2MzQ5Nzc5MTE&force=true&w=1920',
-      backgroundColor: '#d6dbd8',
+      uri: personInNature,
+      backgroundColor: '#728bc1',
     },
 
     visibleTo: 'public',

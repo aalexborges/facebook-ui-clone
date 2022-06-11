@@ -1,6 +1,6 @@
 import { ButtonHTMLAttributes } from 'react'
 
-import type { User } from '../../utils/user'
+import type { User } from '../../data/user'
 
 import { Container, Text, UserImage } from './styles'
 

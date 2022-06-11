@@ -5,7 +5,7 @@ import { PostAuthor } from '../PostAuthor'
 import { PostBottom } from '../PostBottom'
 
 // Utils
-import { PostType } from '../../utils/posts'
+import { PostType } from '../../data/posts'
 
 import { Container, ImageContainer, Text, TextContainer } from './styles'
 

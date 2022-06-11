@@ -4,7 +4,7 @@ import moment from 'moment'
 import { ReactComponent as MoreIcon } from '../../assets/postMoreIcon.svg'
 
 // Utils
-import type { User } from '../../utils/user'
+import type { User } from '../../data/user'
 import capitalize from '../../utils/capitalize'
 
 import {

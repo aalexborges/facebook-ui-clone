@@ -3,7 +3,7 @@ import { act } from 'react-dom/test-utils'
 
 import { PostBottom } from '.'
 
-import { posts } from '../../utils/posts'
+import { posts } from '../../data/posts'
 
 test('PostButton should render', () => {
   const { getByTestId } = render(<PostBottom {...posts[0]} />)

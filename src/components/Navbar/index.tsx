@@ -14,7 +14,7 @@ import { NavbarUserButton } from '../NavbarUserButton'
 import { NavbarRoundedButton } from '../NavbarRoundedButton'
 
 // Utils
-import { user } from '../../utils/user'
+import { user } from '../../data/user'
 
 import { Container, Content, LeftContainer, RightContainer } from './styles'
 
