@@ -1,24 +1,28 @@
 name: Lint
 
-on: pull_request
+on:
+  pull_request:
+    branches: [main]
 
 jobs:
   code:
     name: Lint code
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
       - name: Set up Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 14
+          cache: 'yarn'
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: yarn
 
       - name: Run ESLint
         run: yarn lint
